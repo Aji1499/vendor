@@ -1,0 +1,11 @@
+android_app {
+    name: "Fancontroller",
+    platform_apis: true,
+    srcs: [
+        "src/**/*.java"
+    ],
+    static_libs: [
+        "vendor.hardware.fancontroller-V1-java",
+          "junit"
+    ]
+}

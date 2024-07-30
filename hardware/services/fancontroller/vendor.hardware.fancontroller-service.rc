@@ -1,0 +1,5 @@
+service vendor.hardware.fancontroller-service /vendor/bin/hw/vendor.hardware.fancontroller-service
+        interface aidl vendor.hardware.fancontroller.IFancontroller/default
+        class hal
+        user system
+        group system
